@@ -7,8 +7,8 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <div class="p-1 bg-yellow-100">
-        <div class="mx-auto flex max-w items-center pb-1 bg-white">
+    <div class="m-1 inset-shadow-sm">
+        <div class="mx-auto flex max-w items-center pb-1">
             <div class="container">
                 <div class="h-121 w-auto mr-1 bg-red-400 rounded-tl-lg"></div>
             </div>
