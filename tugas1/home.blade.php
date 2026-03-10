@@ -7,17 +7,19 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <div class="mx-auto flex max-w items-center">
-        <div class="container">
-            <div class="h-121 w-auto mr-1 bg-red-400"></div>
+    <div class="p-1 bg-yellow-100">
+        <div class="mx-auto flex max-w items-center pb-1 bg-white">
+            <div class="container">
+                <div class="h-121 w-auto mr-1 bg-red-400 rounded-tl-lg"></div>
+            </div>
+            <div class="container">
+                <div class="h-60 w-auto mb-1 bg-green-400 rounded-tr-lg"></div>
+                <div class="h-60 w-auto bg-blue-400"></div>
+            </div>
         </div>
-        <div class="container">
-            <div class="h-60 w-auto mb-1 bg-green-400"></div>
-            <div class="h-60 w-auto bg-blue-400"></div>
+        <div class="container bg-white">
+            <div class="h-42 w-auto bg-orange-400 rounded-b-lg"></div>
         </div>
-    </div>
-    <div class="container">
-        <div class="h-45 w-auto mt-1 bg-orange-400"></div>
     </div>
 </body>
 </html>
